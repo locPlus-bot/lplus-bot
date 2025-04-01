@@ -1,10 +1,10 @@
-7883595487:AAFWw9hLgjidbzUsUVViKjZKcKU3DPNFn9Qfrom aiogram import Bot, 
+from aiogram import Bot, 
 Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils import executor
 
 # 🔐 Твій токен
-TOKEN = "7883595487:AAFuLs0SyBLJRcsKsKhAKAHOs7fu6x49wcg"
+TOKEN = "7883595487:AAFWw9hLgjidbzUsUVViKjZKcKU3DPNFn9Q"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
